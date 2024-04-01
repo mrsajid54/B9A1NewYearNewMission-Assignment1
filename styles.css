@@ -1,8 +1,9 @@
 /* common styles  */
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Merriweather';
+
 
 }
 
@@ -17,7 +18,7 @@
     width: 83%;
     height: auto;
     text-align: center;
-    margin: 50px 140px 0px;
+    margin: 50px 0px 0px;
     border-radius: 16px;
     background: linear-gradient(to bottom, black);
 
@@ -53,14 +54,16 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-    /* 131.944% */
+
 }
+
 /* section-off  */
 
 .section-off {
-    padding: 50px 350px 0px;
+    width: 83%;
+    margin: 50px 127px 0px;
     text-align: center;
-    
+
 }
 
 .section-off .off {
@@ -101,7 +104,7 @@
     margin-top: 100px;
     margin-bottom: 120px;
     position: relative;
-    text-align: center;
+
 }
 
 .pbg .pbgimg {
@@ -120,7 +123,7 @@
     width: 591px;
     position: absolute;
     top: 50%;
-    left: 33%;
+    left: 39%;
     color: #FFF;
     font-size: 50px;
     transform: translate(-50%, -50%);
@@ -162,15 +165,15 @@
 
 .schedule-container {
     text-align: center;
-    margin: 50px 161px 120px;
+    margin: 50px 134px 120px;
     width: 83%;
     height: 600px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    border-radius: 13px ;
+    border-radius: 13px;
 }
 
 .schedule-container>.schedule-text {
-    padding: 120px 511px 159px ;
+    padding: 120px 272px 159px;
     color: black;
     text-align: center;
     font-size: 32px;
@@ -179,13 +182,14 @@
     line-height: 56px;
     /* 175% */
     text-transform: capitalize;
-    
+
 }
-.schedule-container>.schedule-text >p {
+
+.schedule-container>.schedule-text>p {
     font-family: inter;
 }
 
- .btn-place {
+.btn-place {
     margin: 30px auto 0px;
     padding: 16px 32px;
     border-radius: 8px;
@@ -202,7 +206,7 @@
 
 
 /* csoon */
-.csoon-container{
+.csoon-container {
     text-align: center;
     display: flex;
     margin: 120px 140px 120px;
@@ -211,15 +215,16 @@
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    
-}
-
-.csoon-container> .csoon-item1{
-text-align: left;
-/* padding-right: 80px ; */
 
 }
-.csoon-item1 > h4{
+
+.csoon-container>.csoon-item1 {
+    text-align: left;
+    width: 300px;
+
+}
+
+.csoon-item1>h4 {
     padding-top: 100px;
     color: #F00;
     font-family: Inter;
@@ -227,47 +232,165 @@ text-align: left;
     font-weight: 500;
 }
 
-.csoon-item1 > h5{
+.csoon-item1>h5 {
     padding: 18px 0px 22px;
     color: #070211;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 900;
     text-transform: capitalize;
 }
-.csoon-item1 > p{
-    width: 393px;
+
+.csoon-item1>p {
+    width: 320px;
     color: #07021199;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    
-}
-.csoon-container  .csoon-item2 img{
-   border: 20px red solid;
-   border-radius: 50% ;
-   padding: 30px;
+
 }
 
-.csoon-container>.csoon-item3{
+.csoon-container .csoon-item2 img {
+    height: 300px;
+    border: 20px red solid;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.csoon-container>.csoon-item3 {
     text-align: left;
     position: relative;
     top: 82px;
+    left: 80px;
 
-    
-    
-   
-    
+
+
+
+
 
 }
-.csoon-item3 > h5{
+
+.csoon-item3>h5 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
 
-.csoon-item3 > p {
+.csoon-item3>p {
     width: 271px;
     padding: 16px 0px 40px;
+}
+
+.csoon-item3>img {
+    height: 100px;
+}
+
+/* function section  */
+.func-sec {
+    text-align: center;
+    margin: 50px 134px 120px;
+    width: 83%;
+   
+    
+
+
+
+}
+
+.func-sec>h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.func-sec>h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.func-sec>p {
+    margin: auto;
+    text-align: center;
+
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.func-items {
+    text-align: center;
+
+
+}
+
+.func-sec .func-items .func-item1 {
+    width: 620px;
+    transform: translate(0%, 95%);
+
+}
+
+.func-sec .func-items .func-item2 {
+
+    position: relative;
+    left: 190px;
+    bottom: 20px;
+
+}
+
+.func-sec .func-items .func-item3 {
+
+    transform: translate(71px, 314px);
+
+
+}
+
+.func-sec .func-items .func-item4 {
+    width: 100%;
+
+}
+
+/* best gifts */
+.best-gift {
+    display: block;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 300px;
+    
+}
+
+.best-gift .best-gift-content {
+    margin-bottom: 40px;
+    
+}
+.best-gift-content>h2{
+    padding:  20px 0px;
+}
+.best-gift-content>p {
+    width: 950px;
+    text-align: left;
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.best-gift .portfolio-items {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.best-gift img {
+    width: 384px;
 }
